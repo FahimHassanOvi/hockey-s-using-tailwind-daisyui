@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link CSS -->
+     <link rel="stylesheet" href="styles/style.css">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/fac89ddc28.js" crossorigin="anonymous"></script>
     <!-- Tailwind CDN -->
@@ -90,7 +92,7 @@
 
     </header>
 
-    <main class="container mx-auto h-[5000rem]">
+    <main class="container px-12 lg:px-0 mx-auto h-[5000rem]">
         <!-- Statistics section -->
         <section class="mt-24">
             <!-- Introduction part -->
@@ -113,7 +115,8 @@
                 </div>
                 <div class="flex flex-col items-center justify-center p-6 text-center space-y-3">
                     <div class="relative">
-                        <div class="z-50 radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                        <div class="z-50 radial-progress text-green-500" style="--value:95;" role="progressbar">95%
+                        </div>
                         <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:95;"
                             role="progressbar"></div>
 
@@ -123,7 +126,8 @@
                 </div>
                 <div class="flex flex-col items-center justify-center p-6 text-center space-y-3">
                     <div class="relative">
-                        <div class="z-50 radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
+                        <div class="z-50 radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%
+                        </div>
                         <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:90;"
                             role="progressbar"></div>
 
@@ -140,6 +144,46 @@
                     </div>
                     <h6 class="text-xl font-semibold">Training Ground</h6>
                     <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+        <!-- Program section -->
+        <section class="mt-24">
+            <div class="border-y-[2px] border-dashed py-12 text-center flex flex-col items-center justify-center">
+                <h3 class="text-3xl font-bold mb-3">Program Sections</h3>
+                <p class="opacity-80 w-1/2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class=" rounded-lg w-full junior-program-1 flex flex-col justify-end items-center p-8 lg:p-24 text-white">
+                    <!-- Image 1 -->
+                    <div>
+                        <h5 class="text-2xl font-semibold mb-4">Junior Program</h5>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+                    </div>
+                </div>
+                <div class=" rounded-lg w-full junior-program-2 flex flex-col justify-end items-center p-8 lg:p-24 text-white">
+                    <!-- Image 2 -->
+                    <div>
+                        <h5 class="text-2xl font-semibold mb-4">Teenager Program</h5>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+                    </div>
+                </div>
+                <div class=" rounded-lg w-full junior-program-3 flex flex-col justify-end items-start p-8 lg:p-24 text-white lg:col-span-2">
+                    <!-- Image 3 -->
+                    <div>
+                        <h5 class="text-2xl font-semibold mb-4">Professional Program</h5>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                            <button class="btn btn-error mt-4 text-white">Register Now!</button>
+                    </div>
                 </div>
             </div>
         </section>
